@@ -80,12 +80,12 @@ The next step is to train masks. We provide an example script for training mean 
 Running this will train 10 masks, one for each circuit. In our paper we use different hyperparameters for different subtasks. This needs to be adjusted for in the abovementioned script. Hyperparameters can be found in the paper in appendix B. On an AMD Instinct MI250X, mask training takes approximately two hours per mask. As with step 2, if you want to use wandb for logging, please make the same changes to ```./code/mask_train.py```.
 
 ## Step 6: Tracr experiments
-In `../tracr_models` and `../data/tracr_data` we provide pre-compiled
+In `./tracr_models` and `./data/tracr_data` we provide pre-compiled
 models and data for the Tracr experiments reported in the paper. To
 reproduce the results and see the resulting circuits, run:
 
 ```
-python tracr_validation/train_tracr_mask.py 
+python ./code/tracr_validation/train_tracr_mask.py 
     --model_path ../tracr_models/echo/tracr_model_echo.pkl 
     --data_path ../data/tracr_data/echo
     --subtask echo
