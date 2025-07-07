@@ -32,6 +32,7 @@ All code was developed and tested on Ubuntu 22.04 with Python 3.12.0.
 
 To run the current code, we recommend to use Poetry:
 ```
+cd code
 poetry install                          # Install dependencies
 poetry shell                            # Activate virtual environment
 # Work for a while
