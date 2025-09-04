@@ -6,7 +6,7 @@
 
 <div style="text-align: center; width: 100%;">
   <!-- Container to align the image and the caption -->
-  <div style="display: inline-block; text-align: left; width: 85%;">
+  <div style="display: inline-block; text-align: left; width: 80%;">
     <img src="assets/imgs/opening_figure.png" style="width: 100%;" alt="circuit compositions">
   </div>
 </div>
@@ -123,3 +123,22 @@ python ./code/circuit_evaluations/circuit_overplap_evaluation.py
 ## License
 ![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)
 This work is licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Citation
+If you find our work helpful, you can cite this paper as:
+```
+@inproceedings{mondorf-etal-2025-circuit,
+title = "Circuit Compositions: Exploring Modular Structures in Transformer-Based Language Models",
+author = "Mondorf, Philipp  and Wold, Sondre  and Plank, Barbara",
+editor = "Che, Wanxiang  and Nabende, Joyce  and Shutova, Ekaterina  and Pilehvar, Mohammad Taher",
+booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+month = jul,
+year = "2025",
+address = "Vienna, Austria",
+publisher = "Association for Computational Linguistics",
+url = "https://aclanthology.org/2025.acl-long.727/",
+doi = "10.18653/v1/2025.acl-long.727",
+pages = "14934--14955",
+ISBN = "979-8-89176-251-0",
+}
+```
